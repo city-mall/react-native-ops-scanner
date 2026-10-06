@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+
+    <application>
+        <!--
+          Launched only via startActivityForResult from CodeScannerModule, so
+          exported=false (the debug source set flips it for adb testing).
+          Runtime CAMERA permission is the host's job — the activity never
+          prompts and finishes with `camera_permission_denied` without it.
+        -->
+        <activity
+            android:name=".CodeScannerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.OpsScanner"
+            android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize|uiMode"
+            android:exported="false" />
+    </application>
+</manifest>

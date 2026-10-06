@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <application>
+        <!--
+          Debug builds of the host export the activity so QA can open it
+          straight from adb — see README "Debug launch". Release keeps
+          exported=false from the main manifest.
+        -->
+        <activity
+            android:name=".CodeScannerActivity"
+            android:exported="true"
+            tools:replace="android:exported" />
+    </application>
+</manifest>

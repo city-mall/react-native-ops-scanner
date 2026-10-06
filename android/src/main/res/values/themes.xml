@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      The activity's own theme, so the library does not depend on the host
+      naming its theme AppTheme. Opaque on purpose: a translucent activity that
+      also pins portrait crashes on Android 8.0 (API 26).
+    -->
+    <style name="Theme.OpsScanner" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+</resources>

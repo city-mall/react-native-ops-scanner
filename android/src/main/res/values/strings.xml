@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Hindi defaults; callers override title / helper_text per launch. -->
+    <string name="ops_scanner_title_qr">QR कोड स्कैन करें</string>
+    <string name="ops_scanner_title_barcode">बारकोड स्कैन करें</string>
+    <string name="ops_scanner_helper_qr">QR कोड को बॉक्स के अंदर रखें</string>
+    <string name="ops_scanner_helper_barcode">बारकोड को बॉक्स के अंदर सीधा रखें</string>
+    <string name="ops_scanner_mode_qr">QR कोड</string>
+    <string name="ops_scanner_mode_barcode">बारकोड</string>
+    <string name="ops_scanner_hint_move_inside">कोड को बॉक्स के अंदर लाएँ</string>
+    <string name="ops_scanner_hint_not_valid">यह कोड इस स्टेप का नहीं है</string>
+    <string name="ops_scanner_torch_on">टॉर्च चालू करें</string>
+    <string name="ops_scanner_torch_off">टॉर्च बंद करें</string>
+    <string name="ops_scanner_cd_close">बंद करें</string>
+</resources>
